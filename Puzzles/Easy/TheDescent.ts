@@ -5,8 +5,7 @@ while (true) {
     const mountainH = parseInt(readline());
     if (mountainH < max) continue;
     max = mountainH;
-    loc = 1;
+    loc = i;
   }
-
   console.log(loc);
 }
